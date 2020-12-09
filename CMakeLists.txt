@@ -32,6 +32,8 @@ endif()
 # add dependencies
 include(cmake/toml++.cmake)
 
+include(cmake/eigen.cmake)
+
 include(cmake/glfw.cmake)
 
 set(ENV_SDL2_VERSION "2.0.12")

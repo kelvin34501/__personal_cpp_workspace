@@ -33,7 +33,7 @@ note: c++20
 + [ ] simdjson
 + [ ] rapidjson
 + [ ] pybind11
-+ [ ] eigen
++ [x] eigen
 + [ ] armadillo
 + [ ] ceres-solver
 + [ ] cgal
