@@ -10,7 +10,7 @@ project(
   LANGUAGES CXX)
 
 # set project options
-message(STATUS "Started CMake for ${PROJECT_NAME} v${PROJECT_VERSION}...\n")
+message(STATUS "Started CMake for ${PROJECT_NAME} v${PROJECT_VERSION}...")
 
 # set alternative names
 if(${PROJECT_NAME}_USE_ALT_NAMES)
@@ -30,7 +30,11 @@ if(PROJECT_SOURCE_DIR STREQUAL PROJECT_BINARY_DIR)
 endif()
 
 # add dependencies
+set(ENV_SDL2_VERSION "2.0.12")
+include(cmake/sdl2.cmake)
+
 include(cmake/pattern.cmake)
+
 include(cmake/rangesnext.cmake)
 
 # get a null target
