@@ -40,7 +40,7 @@ note: c++20
 + [ ] klein
 + [ ] glm
 + [ ] glad
-+ [ ] glfw
++ [x] glfw
 + [x] sdl2
 + [ ] sfml
 + [ ] imgui
