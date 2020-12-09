@@ -65,6 +65,6 @@ note: c++20
 + [ ] icu
 + [ ] libiconv
 + [ ] jemalloc
-+ [ ] pattern
-+ [ ] rangesnext
++ [x] pattern
++ [x] rangesnext
 + [ ] sanitizers

@@ -29,6 +29,10 @@ if(PROJECT_SOURCE_DIR STREQUAL PROJECT_BINARY_DIR)
   )
 endif()
 
+# add dependencies
+include(cmake/pattern.cmake)
+include(cmake/rangesnext.cmake)
+
 # get a null target
 add_custom_target(${PROJECT_NAME})
 # <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
