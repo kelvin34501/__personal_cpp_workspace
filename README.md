@@ -27,7 +27,7 @@ note: c++20
 + [ ] tbb
 + [ ] protobuf
 + [ ] nlohmann-json
-+ [ ] toml++
++ [x] toml++
 + [ ] yaml-cpp
 + [ ] cereal
 + [ ] simdjson

@@ -30,6 +30,8 @@ if(PROJECT_SOURCE_DIR STREQUAL PROJECT_BINARY_DIR)
 endif()
 
 # add dependencies
+include(cmake/toml++.cmake)
+
 set(ENV_SDL2_VERSION "2.0.12")
 include(cmake/sdl2.cmake)
 
