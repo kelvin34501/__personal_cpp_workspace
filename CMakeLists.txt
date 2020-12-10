@@ -42,6 +42,7 @@ include(cmake/catch2.cmake)
 include(cmake/celero.cmake)
 
 include(cmake/spdlog.cmake)
+include(cmake/fmt.cmake)
 
 include(cmake/toml++.cmake)
 

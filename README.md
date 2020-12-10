@@ -23,6 +23,7 @@ note: c++20
 + [ ] doctest
 + [x] celero
 + [x] spdlog
++ [x] fmt
 + [ ] cpp-taskflow
 + [ ] tbb
 + [ ] protobuf
