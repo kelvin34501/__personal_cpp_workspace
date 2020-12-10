@@ -30,6 +30,8 @@ if(PROJECT_SOURCE_DIR STREQUAL PROJECT_BINARY_DIR)
 endif()
 
 # add dependencies
+include(cmake/gtest.cmake)
+
 include(cmake/toml++.cmake)
 
 include(cmake/eigen.cmake)

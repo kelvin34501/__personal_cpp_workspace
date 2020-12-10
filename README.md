@@ -17,7 +17,7 @@ note: c++20
 + [ ] abseil
 + [ ] folly
 + [ ] actor-framework
-+ [ ] gtest
++ [x] gtest
 + [ ] benchmark
 + [ ] catch2
 + [ ] doctest
