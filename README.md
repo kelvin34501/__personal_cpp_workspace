@@ -21,7 +21,7 @@ note: c++20
 + [x] benchmark
 + [x] catch2
 + [ ] doctest
-+ [ ] celero
++ [x] celero
 + [ ] spdlog
 + [ ] cpp-taskflow
 + [ ] tbb
