@@ -22,7 +22,7 @@ note: c++20
 + [x] catch2
 + [ ] doctest
 + [x] celero
-+ [ ] spdlog
++ [x] spdlog
 + [ ] cpp-taskflow
 + [ ] tbb
 + [ ] protobuf

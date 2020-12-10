@@ -41,6 +41,8 @@ message(STATUS "[benchmark] src: ${BENCHMARK_SRC_PATH}")
 include(cmake/catch2.cmake)
 include(cmake/celero.cmake)
 
+include(cmake/spdlog.cmake)
+
 include(cmake/toml++.cmake)
 
 include(cmake/eigen.cmake)
