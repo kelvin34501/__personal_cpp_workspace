@@ -38,6 +38,7 @@ include(cmake/gtest.cmake)
 message(STATUS "[gtest] src: ${GTEST_SRC_PATH}")
 include(cmake/benchmark.cmake)
 message(STATUS "[benchmark] src: ${BENCHMARK_SRC_PATH}")
+include(cmake/doctest.cmake)
 include(cmake/catch2.cmake)
 include(cmake/celero.cmake)
 

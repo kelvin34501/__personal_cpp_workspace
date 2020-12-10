@@ -16,14 +16,14 @@ note: c++20
 + [ ] poco
 + [ ] abseil
 + [ ] folly
-+ [ ] actor-framework
 + [x] gtest
 + [x] benchmark
 + [x] catch2
-+ [ ] doctest
++ [x] doctest
 + [x] celero
 + [x] spdlog
 + [x] fmt
++ [ ] actor-framework
 + [ ] cpp-taskflow
 + [ ] tbb
 + [ ] protobuf
