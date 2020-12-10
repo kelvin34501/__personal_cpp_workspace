@@ -19,7 +19,7 @@ note: c++20
 + [ ] actor-framework
 + [x] gtest
 + [x] benchmark
-+ [ ] catch2
++ [x] catch2
 + [ ] doctest
 + [ ] celero
 + [ ] spdlog
