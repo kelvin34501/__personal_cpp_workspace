@@ -18,7 +18,7 @@ note: c++20
 + [ ] folly
 + [ ] actor-framework
 + [x] gtest
-+ [ ] benchmark
++ [x] benchmark
 + [ ] catch2
 + [ ] doctest
 + [ ] celero

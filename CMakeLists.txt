@@ -29,8 +29,15 @@ if(PROJECT_SOURCE_DIR STREQUAL PROJECT_BINARY_DIR)
   )
 endif()
 
+# set environment spec
+set(WORKSPACE_PATH ${PROJECT_SOURCE_DIR}/env)
+set(WORKSPACE_INCLUDE ${PROJECT_SOURCE_DIR}/env/include)
+
 # add dependencies
 include(cmake/gtest.cmake)
+message(STATUS "[gtest] src: ${GTEST_SRC_PATH}")
+include(cmake/benchmark.cmake)
+message(STATUS "[benchmark] src: ${BENCHMARK_SRC_PATH}")
 
 include(cmake/toml++.cmake)
 
@@ -42,7 +49,6 @@ set(ENV_SDL2_VERSION "2.0.12")
 include(cmake/sdl2.cmake)
 
 include(cmake/pattern.cmake)
-
 include(cmake/rangesnext.cmake)
 
 # get a null target

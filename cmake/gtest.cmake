@@ -11,3 +11,5 @@ ExternalProject_Add(
     INSTALL_DIR ${PROJECT_SOURCE_DIR}/env
     CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR> -DCMAKE_BUILD_TYPE=Release
 )
+
+set(GTEST_SRC_PATH ${PROJECT_SOURCE_DIR}/env_build/gtest/src/gtest)
