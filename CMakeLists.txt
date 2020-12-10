@@ -49,6 +49,7 @@ include(cmake/toml++.cmake)
 
 include(cmake/eigen.cmake)
 
+include(cmake/glm.cmake)
 include(cmake/glfw.cmake)
 
 set(ENV_SDL2_VERSION "2.0.12")
@@ -56,6 +57,20 @@ include(cmake/sdl2.cmake)
 
 include(cmake/pattern.cmake)
 include(cmake/rangesnext.cmake)
+
+list(APPEND CMAKE_PREFIX_PATH "${PROJECT_SOURCE_DIR}/env")
+message(STATUS "CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}")
+list(APPEND find_options NO_SYSTEM_ENVIRONMENT_PATH)
+list(APPEND find_options NO_CMAKE_SYSTEM_PATH)
+list(APPEND find_options NO_CMAKE_SYSTEM_PACKAGE_REGISTRY)
+list(APPEND find_options NO_CMAKE_BUILDS_PATH)
+message(STATUS "find_package options:${find_options}")
+find_package(GTest REQUIRED 
+  ${find_options}
+)
+find_package(benchmark REQUIRED 
+  ${find_options}
+)
 
 # get a null target
 add_custom_target(${PROJECT_NAME})

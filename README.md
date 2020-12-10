@@ -39,7 +39,7 @@ note: c++20
 + [ ] ceres-solver
 + [ ] cgal
 + [ ] klein
-+ [ ] glm
++ [x] glm
 + [ ] glad
 + [x] glfw
 + [x] sdl2

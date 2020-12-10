@@ -6,7 +6,6 @@ ExternalProject_Add(
     gtest
     PREFIX ${PROJECT_SOURCE_DIR}/env_build/gtest
     GIT_REPOSITORY https://github.com/google/googletest.git
-    GIT_TAG origin/master
     GIT_PROGRESS TRUE
     INSTALL_DIR ${PROJECT_SOURCE_DIR}/env
     CMAKE_ARGS -DCMAKE_INSTALL_PREFIX=<INSTALL_DIR> -DCMAKE_BUILD_TYPE=Release

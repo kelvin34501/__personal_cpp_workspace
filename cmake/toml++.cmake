@@ -6,7 +6,6 @@ ExternalProject_Add(
     toml++
     PREFIX ${PROJECT_SOURCE_DIR}/env_build/toml++
     GIT_REPOSITORY https://github.com/marzer/tomlplusplus.git
-    GIT_TAG origin/master
     GIT_PROGRESS TRUE
     CONFIGURE_COMMAND ""
     BUILD_COMMAND ""
