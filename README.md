@@ -43,7 +43,7 @@ note: c++20
 + [ ] glad
 + [x] glfw
 + [x] sdl2
-+ [ ] sfml
++ [x] sfml
 + [ ] imgui
 + [ ] assimp
 + [ ] entt
