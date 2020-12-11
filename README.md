@@ -48,7 +48,7 @@ note: c++20
 + [ ] assimp
 + [ ] entt
 + [ ] stb_image
-+ [ ] opencv
++ [x] opencv
 + [ ] dlib
 + [ ] pcl
 + [ ] mlpack

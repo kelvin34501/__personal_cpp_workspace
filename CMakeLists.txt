@@ -55,6 +55,8 @@ set(ENV_SDL2_VERSION "2.0.12")
 include(cmake/sdl2.cmake)
 include(cmake/sfml.cmake)
 
+include(cmake/opencv.cmake)
+
 include(cmake/pattern.cmake)
 include(cmake/rangesnext.cmake)
 
